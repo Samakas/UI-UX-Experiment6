@@ -16,126 +16,103 @@ To practice solution ideation, user story creation, scenario development, flow m
 
 
 ## Output:
-1. Solution Ideation Exercise Used: Crazy 8s (Creating 8 ideas in 8 minutes. Here's a summarized version.)
-Low-Fidelity Idea Concepts:
+## Solution Ideation
+Problem Statement: Public transport users often face challenges with existing apps, including inaccurate real-time tracking, confusing route planning, difficulty finding fare information, and a lack of personalized updates, leading to frustration and missed connections.
 
-One-Tap Booking – User selects a department and gets instant appointment slots.
+## Ideation Exercise: Crazy 8s (Adapted for Text)
 
-Voice-Based Booking – Uses voice input to book appointments.
+Here are 8 quick low-fidelity ideas for solving the public transport app UX problem:
 
-Calendar Sync – App suggests slots based on user’s Google Calendar availability.
+"One-Tap Commute" Widget: A customizable widget on the home screen showing the next departure for a favorited route and destination.
 
-Chatbot Assistant – A chatbot guides users step-by-step.
+Dynamic Route Preview: When searching for a destination, the app displays not just the route, but also shows potential delays, crowdedness predictions, and even seat availability on upcoming services.
 
-Emergency Booking – An “Emergency” tab allows faster appointments bypassing regular flow.
+Augmented Reality (AR) Navigation: Users hold up their phone camera, and the app overlays directions (e.g., "Bus Stop 30m Ahead," "Train Platform 7") on the real-world view.
 
-Family Booking – Book appointments for family members easily.
+Integrated Ticketing & Fare Management: Users can purchase tickets, top up their transport card, and view fare history directly within the app, with saved payment methods.
 
-Symptoms to Doctor Match – User enters symptoms and app suggests specialist.
+Offline Route Planning: Allows users to plan journeys and view downloaded maps even without an internet connection, crucial for areas with poor signal.
 
-Queue Position Tracking – After booking, shows real-time queue updates.
+Crowd-Sourced Incident Reporting: A feature for users to report delays, overcrowding, or cleanliness issues, providing real-time community updates.
 
-2. Creating User Stories
-User Personas:
+Personalized Notification Hub: A dedicated section for alerts relevant to the user's saved routes, frequently used lines, or current location (e.g., "Bus #12 delayed by 5 mins").
 
-Ravi, a 30-year-old software engineer, prefers fast, minimal steps.
+Multi-Modal Journey Planner: Integrates various transport options (bus, train, tram, bike-share, walk) into a single journey plan, showing estimated times and costs for each leg.
 
-Meena, a 55-year-old homemaker, not tech-savvy but manages basic apps.
+## User Personas
+Sarah – Daily Commuter, Age 28
 
-Zara, a 22-year-old student, wants instant confirmation and reminders.
+Need: Efficient and reliable real-time tracking for her daily bus and train commute.
 
-User Stories:
+### User Story 1:
+As a daily commuter, I want to see the exact real-time location of my bus and train, so that I can time my departure from home perfectly and avoid waiting in the cold.
 
-As a busy professional, I want to book an appointment in less than 2 minutes, so that I don’t waste time navigating the app.
+Ben – Occasional Traveler/Tourist, Age 35
 
-As a senior user, I want to have large buttons and clear instructions, so that I don’t get confused while booking.
+Need: Easy-to-understand route planning for unfamiliar areas and clear fare information.
 
-As a student, I want to receive reminders about my appointments, so that I don’t forget them during a hectic day.
+### User Story 2: 
+As an occasional traveler, I want to easily find the best route to a new destination, including fare estimates, so that I can navigate the city confidently without getting lost or overpaying.
 
-As a caregiver, I want to book appointments for my parents, so that they can get treatment without using the app themselves.
+Maria – Student, Age 20
 
-As a first-time user, I want to find doctors based on symptoms, so that I know whom to consult.
+Need: Affordable travel options and quick access to student pass information.
 
-3. Creating Scenarios
-Selected User Story:
+### User Story 3:
+As a student, I want to quickly view my student travel pass balance and find the cheapest route options, so that I can manage my budget effectively.
 
-As a first-time user, I want to find doctors based on symptoms, so that I know whom to consult.
+David – Parent with Children, Age 42
 
-Scenario:
+Need: Information on crowdedness and accessibility for strollers.
 
-Ravi has been experiencing chest pain and is unsure whether to see a general physician or a specialist. He downloads the hospital app on a busy Monday afternoon, sitting in his office breakroom. Feeling anxious and a bit stressed, he opens the app and sees a prompt: "Not sure which doctor to consult? Tell us your symptoms." He types “chest pain” and is guided to a list of relevant specialists. Feeling relieved, he selects a cardiologist and books a slot that fits his schedule. The app shows a confirmation and sends a reminder. Ravi feels reassured and confident he’s getting the right care.
+### User Story 4: 
+As a parent traveling with young children, I want to know how crowded a bus or train is likely to be and if it's wheelchair/stroller accessible, so that I can plan a comfortable journey for my family.
 
-4. Flow Diagrams / Flow Mapping
-Task: Book an appointment via hospital app.
+Elena – Night Shift Worker, Age 55
 
-Flow Diagram Symbols Used:
+Need: Reliable late-night transport schedules and safety features.
 
-Start (Oval),
+### User Story 5:
+As a night shift worker, I want to easily check late-night bus and train schedules and access emergency contacts, so that I feel safe and confident returning home after dark.
 
-Process/Action (Rectangle),
+## Scenario: Sarah's Morning Rush
+Selected User Story: User Story 1: "As a daily commuter, I want to see the exact real-time location of my bus and train, so that I can time my departure from home perfectly and avoid waiting in the cold."
 
-Decision (Diamond),
+## Narrative:
 
-End (Oval)
-[Start]
-   ↓
-[Open App]
-   ↓
-[Login/Register]
-   ↓
-[Select 'Book Appointment']
-   ↓
-[Symptom-Based or Doctor-Based?] ← (Decision)
-   ↓                          ↓
-[Enter Symptoms]       [Search Doctor by Name]
-   ↓                          ↓
-[Suggest Specialization]  [View Doctor List]
-   ↓                          ↓
-[Choose Doctor]
-   ↓
-[Pick Date/Time]
-   ↓
-[Confirm Appointment]
-   ↓
-[Receive Confirmation + Reminder]
-   ↓
-[End]
-5. Information Architecture (IA)
-Example App: Hospital Appointment App
+It's 8:00 AM on a chilly Tuesday morning. Sarah, 28, is having her coffee, trying to mentally prepare for another busy day at work. Her bus usually arrives around 8:15 AM, but lately, it's been unpredictable. Standing at the bus stop for 10 minutes in the cold is the last thing she wants to do.
 
-Method Used: Closed Card Sorting (predefined categories)
+She picks up her smartphone, a slight frown on her face. She opens the public transport app. Her "Morning Commute" widget on the home screen immediately shows her favorited Route 14 bus. A small map displays the bus icon, clearly indicating it's three stops away, estimated to arrive in 7 minutes. "Perfect," she thinks, a small smile forming. That gives her just enough time to finish her coffee and grab her bag.
 
-Categories Given to Users:
+She quickly checks the next step of her journey – the train. A quick tap on the train icon reveals that her usual 8:30 AM train is running on time. Feeling relieved and in control, Sarah finishes her coffee, knowing exactly when she needs to head out the door. The anxiety about missing her transport or waiting unnecessarily has evaporated.
 
-Appointments
+## Tasks Performed:
 
-Doctors
+Opens the public transport app.
 
-Reports
+Accesses personalized "Morning Commute" widget/dashboard.
 
-Emergency
+Views real-time location and estimated arrival of her bus.
 
-Help & Support
+Checks the status of her next connection (train).
 
-Profile & Settings
+Plans her departure based on real-time data.
 
-Sample Sorted Cards:
+## Emotional Journey:
 
-Book appointment → Appointments
+Starts: Slightly stressed, anxious about unpredictability.
 
-Find doctor → Doctors
+During: Focused, relieved as clear information is presented.
 
-Lab results → Reports
+After: Calm, confident, in control, and reassured.
 
-Call ambulance → Emergency
+## Flow Diagram
+Here is a flow diagram for the task: "Find the next bus to a specific destination."
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/21474b66-6991-448e-ab46-8240b1dff48d" />
 
-FAQs → Help & Support
+## Information Architecture (IA):
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6bcd3907-8ea4-45d5-b951-060b625b6f29" />
 
-Edit profile → Profile & Settings
-
-Site Map Structure:
-
-<img width="326" height="541" alt="image" src="https://github.com/user-attachments/assets/6da2ec85-8d77-446d-857a-58d10d3b398a" />
 
 
 ## Result:
